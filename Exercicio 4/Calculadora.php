@@ -1,26 +1,17 @@
-<html lang = "pt-br">
-    <head>
-        <title>Exemplo</title>
-        <meta charset = "UTF-8">
-    </head>
-        <body>
-            <?php
-                    $a  = $_REQUEST["PRIMEIRO"];
-                    $b  = $_REQUEST["SEGUNDO"];
-                    $op = $_REQUEST["OPERADOR"];
-
-                    if( !empty($op) ) {
-                        if($op == '+')
-                            $c = $a + $b;
-                        else if($op == '-')
-                            $c = $a - $b;
-                        else if($op == '*')
-                            $c = $a*$b;
-                        else
-                            $c = $a/$b;
-
-                        echo "O resultado da opera&ccedil;&atilde;o &eacute;: $c";
-                    }
-            ?>       
-        </body>
+<html>
+<head>
+   <title>Exemplo</title>
+</head>
+    <body>
+        <form name="Visor" action="SomarCalc.php" method="post" >
+            <label>Primeiro Numero:</label> 
+                <input name="PRIMEIRO" type="text"><br>
+            <label>Segundo Numero:</label>
+                <input name="SEGUNDO" type="text"><br>    
+            <input type="submit" name="OPERADOR" value="+">     
+            <input type="submit" name="OPERADOR" value="-">     
+            <input type="submit" name="OPERADOR" value="*">     
+            <input type="submit" name="OPERADOR" value="/">
+        </form>     
+    </body>
 </html>
