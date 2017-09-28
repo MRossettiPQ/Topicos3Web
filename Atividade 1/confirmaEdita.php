@@ -52,7 +52,7 @@
                                         <center>Diretor</center> 
                                     </td>
                                     <td style = 'width:230px; height:60px;'>
-                                            <input name='diretorNovo' type='text' value=".$diretor." style = 'width:230px; height:60px;'>
+                                            <input name='diretorNovo' type='text' value='".$diretor."' style = 'width:230px; height:60px;'>
                                     </td>
                                 </tr>
                                 <tr>
@@ -60,13 +60,13 @@
                                         <center>Genero</center> 
                                     </td>
                                     <td style = 'width:230px; height:60px;'>
-                                            <input name='generoNovo'type = 'text' value=".$genero." style = 'width:230px; height:60px;'>
+                                            <input name='generoNovo'type = 'text' value='".$genero."' style = 'width:230px; height:60px;'>
                                     </td>
                                     <td style = 'width:130px; height:60px;'>
                                         <center>Ano</center> 
                                     </td>
                                     <td style = 'width:230px; height:60px;'>
-                                            <input name='anoNovo'type = 'number' value=".$ano." style = 'width:230px; height:60px;'>
+                                            <input name='anoNovo'type = 'number' value='".$ano."' style = 'width:230px; height:60px;'>
                                     </td>
                                 </tr>
                             </table>
