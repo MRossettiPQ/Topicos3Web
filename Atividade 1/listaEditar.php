@@ -120,7 +120,7 @@
                         ."
                         </center>
                     </td> 
-                    <td style='width:75px;'>
+                    <td style='width:75px;'>";
                         <center>
                             <form name='editar' action='confirmaEdita.php?id=".$id_filmes."' method='post' >
                                 <input type='submit' value ='EDITAR'>
