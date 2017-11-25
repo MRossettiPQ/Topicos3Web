@@ -3,13 +3,10 @@
 
     $deleta = $_GET['id'];
 
-    if ($deleta != $_SESSION['id_user'])
-    {    
-        $query = "DELETE FROM users WHERE id=$deleta";
-        if ($link->query($query) === TRUE)
-        {
-            echo "Usuário excluído com sucesso";
-        }
+    $query = "DELETE FROM users WHERE id=$deleta";
+    if ($link->query($query) === TRUE)
+    {
+        //echo "Usuário excluído com sucesso";
     }
     else
     {

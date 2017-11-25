@@ -99,7 +99,7 @@
                                 </table>
                             </td>
                         </tr>";
-                    if(2 == 1)
+                    if($_SESSION['id_profiles'] == 1)
                     {
                         echo "
                         <table border='tabuleiroOpcaoRoot' bgcolor=#afbdd4>
