@@ -1,0 +1,7 @@
+#Config
+#Sun Nov 26 17:30:17 BRST 2017
+cfg.tipodefault=0
+cfg.location.y=-8
+cfg.location.x=-8
+cfg.recentes=C\:\\wamp64\\www\\Topicos3Web\\Atividade 3\\banco\\L\u00F3gico_GAMEDB.brM3;C\:\\wamp64\\www\\Topicos3Web\\Atividade 3\\banco\\Conceitual_GAMEDB.brM3;C\:\\wamp64\\www\\Topicos3Web\\Atividade 3\\banco\\Conceitual.xml;C\:\\wamp64\\www\\Topicos3Web\\Atividade 3\\banco\\Conceitual.brM3
+cfg.mostrartooltips=false
